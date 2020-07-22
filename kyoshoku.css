@@ -7,7 +7,7 @@ transition:.5s;
 color:#444;	
 }
 /* インスタ・pocket・ラインだけ少し大きく */
-.flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line{
+.flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line .fa-discord{
 font-size:38px;
 }
 /* Twitterマウスホバー時 */
