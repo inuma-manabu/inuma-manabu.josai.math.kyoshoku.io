@@ -1,9 +1,12 @@
-/*フッタを最下部に固定して表示*/
+* {
+   box-sizing: border-box;
+}
 body {
-margin: 50px; /* bodyの外側の余白を指定する */
-padding: 10px; /* bodyの内側余白を指定する(上:右:下:左) */
-font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-background-color: #e6e6e6;
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+   letter-spacing : 0.2em;
 }
 header {
    padding: 30px 4% 10px;
@@ -13,7 +16,15 @@ header {
    background-color: transparent;
    display: flex;
    align-items: center;
- }
+}
+.main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url('main_visual.jpg') top center / cover no-repeat;
+}
+
 footer {
     background-color: transparent;
     align-items: center;
@@ -60,6 +71,7 @@ h2 {
    font-weight: normal;
    color: #fff;
 }
+
 address{
 font-style:normal;
 }
