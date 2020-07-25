@@ -39,11 +39,11 @@ li {
    font-size: 14px;
 }
 .main-visual {
-   display: flex;
+   /*display: flex;*/
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url('main_visual.jpg') top center / cover no-repeat;
+   background: url() top center / cover no-repeat;
 }
 h2 {
    margin: 0;
