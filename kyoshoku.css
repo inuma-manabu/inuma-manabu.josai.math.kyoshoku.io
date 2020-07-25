@@ -22,7 +22,7 @@ header {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg") top center / cover no-repeat;
+   background: url("../math-1500720_1280.jpg") top center / cover no-repeat;
 }
 
 footer {
