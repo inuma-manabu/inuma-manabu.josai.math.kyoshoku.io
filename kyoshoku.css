@@ -1,5 +1,5 @@
 body {
-   background-color: #d0e6ca;
+   background-color: #97a892;
    letter-spacing: 0.2em;
 }
 header {
@@ -21,7 +21,7 @@ a:hover{
 }
 ul {
    list-style: none;
-   margine: 0px;
+   margine: 0 0 0 1em;
    }
 
 address{
@@ -29,6 +29,7 @@ font-style: normal;
 }
 
 .sample{
+   background-color:#d0e6ca;
    font-size:70%;
 }
 
