@@ -6,19 +6,23 @@ font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリ�
 background-color: #e6e6e6;
 }
 header {
-    width: 100%;
-    padding: 10px;
-    background-color: #fff;
-    position: fixed;
+   padding: 30px 4% 10px;
+   position: fixed;
    top: 0;
-    display: flex;
+   width: 100%;
+   background-color: transparent;
+   display: flex;
    align-items: center;
-}
+ }
 footer {
-    margin-top: auto;
-    /*color: #99999;*/    
-    background-color: #fff;
-}
+    padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   *color: #99999;*/    
+     background-color: transparent;
+    align-items: center;
+    }
 h1 {
    margin: 0; padding: 0;
    font-size: 20px;
@@ -53,19 +57,7 @@ nav {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url('.main-visual {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
    background: url('https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/blob/master/math-1500720_1280.jpg') top center / cover no-repeat;
-}
-h2 {
-   margin: 0;
-   font-size: 30px;
-   font-weight: normal;
-   color: #fff;
-}.jpg') top center / cover no-repeat;
 }
 h2 {
    margin: 0;
