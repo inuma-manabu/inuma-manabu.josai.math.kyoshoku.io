@@ -6,10 +6,10 @@ padding: 5px;
 }
 
 body {
-   margin: auto;
-   padding: auto;
-   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: #e6e6e6;
+margin: 40px; /* bodyの外側の余白を指定する */
+padding: 50px 10px 50px 10px; /* bodyの内側余白を指定する(上:右:下:左) */
+font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+background-color: #e6e6e6;
 }
 header {
     width: 100%;
