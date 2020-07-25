@@ -14,8 +14,11 @@ html, body {
   /* また最後の子要素の潜在的なマージンとしても機能 */
   margin-bottom: -50px;
 }
-.footer,
-.push {
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
   height: 50px;
 }
 
