@@ -15,12 +15,7 @@ header {
    align-items: center;
  }
 footer {
-    padding: 30px 4% 10px;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   *color: #99999;*/    
-     background-color: transparent;
+    background-color: transparent;
     align-items: center;
     }
 h1 {
@@ -57,7 +52,7 @@ nav {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/blob/master/math-1500720_1280.jpg') top center / cover no-repeat;
+   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg') top center / cover no-repeat;
 }
 h2 {
    margin: 0;
