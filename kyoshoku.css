@@ -22,40 +22,34 @@ h1 {
    margin: 0; padding: 0;
    font-size: 20px;
 }
-h2 {
-   margin: 0;
-   font-size: 30px;
-   font-weight: normal;
-   color: #fff;
-}
-.main-visual {
-   padding: 0 4%;
-   background: url("https://github.com/inuma-manabu/inuma-manabu.josai.math.kyoshoku.io/math-1500720_1280.jpg") 
-}
-   
-footer {
-    background-color: transparent;
-    align-items: center;
-    }
-address {
-font-style: normal;
-}
-
-.sample a {	
+a {	
    text-decoration: none;
    color: #fff;
 }
 nav {
    margin: 0 0 0 auto;
 }
-.sample ul {
+ul {
    list-style: none;
    margin: 0;
    display: flex;
 }
-.sample li {
+li {
    margin: 0 0 0 15px;
    font-size: 14px;
+}
+.main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url('main_visual.jpg') top center / cover no-repeat;
+}
+h2 {
+   margin: 0;
+   font-size: 30px;
+   font-weight: normal;
+   color: #fff;
 }
 
 .sp-nav {
@@ -169,7 +163,15 @@ nav {
       transform: translateY( 0 );
       opacity: 1;
    }
-  
+   .main-visual {
+      padding: 0 4%;
+   }
+   h2 {
+      line-height: 1.6;
+      text-align: center;
+   }
+}
+
 /* ボタン全体 */
 .flowbtn10{
 display:inline-block;	
