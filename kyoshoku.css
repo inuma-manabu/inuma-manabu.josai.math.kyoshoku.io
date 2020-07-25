@@ -16,14 +16,20 @@ a {
    font-weight: bold;
 }
 a:hover{
+  padding-bottom:1px;
 　text-decoration: underline;
 }
 ul {
    list-style: none;
+   margine: 0px;
    }
 
 address{
 font-style: normal;
+}
+
+.sample{
+   font-size:70%;
 }
 
 /* ボタン全体 */
