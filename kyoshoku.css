@@ -14,7 +14,7 @@ header {
 }
 
 div#body-bk{
-    padding:30px 0 30px 0;    /* 上下に160pxを余白を取る */
+    padding:80px 0 80px 0;    /* 上下に160pxを余白を取る */
 }
  
 div#body{
