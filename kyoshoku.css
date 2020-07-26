@@ -12,30 +12,7 @@ header {
    display: flex;
    align-items: center;
 }
-/* フッターの固定 */
-div#footer-fixed
-{
-    position: fixed;            /* フッターの固定 */
-    bottom: 0px;                /* 位置(下0px) */
-    left: 0px;                  /* 位置(左0px) */
-    width: 100%;                /* 横幅100%　*/
-    height: 200px;              /* 縦幅140px */
-}
- 
-div#footer-bk
-{
-	background-color:#d0e6ca;     /* 背景色 */
-	padding:10px 0 20px;       /* 上10px、下20pxをあける */
-	height:180px;              /* 縦の高さ140px */
-	width:100%;                /* 横の幅を100% */
-}
- 
-div#footer { 
-	border: 5px solid #fff;    /* 表示領域を白枠で囲う */
-	height: 100%;              /* 縦の表示領域はheader-bkと同じ */
-	width: 960px;              /* 横の幅970px */
-	margin: auto;              /* 中央揃え */
-}
+
 div#body-bk{
     padding:30px 0 30px 0;    /* 上下に160pxを余白を取る */
 }
@@ -44,7 +21,7 @@ div#body{
     width:960px;
     margin:auto;
 }
-.foot-wrap .menu-left, .menu-right {
+.foot-wrap .menu-left .menu-right {
     display: inline-block;
     width: 35%;
     margin: 50px auto;
